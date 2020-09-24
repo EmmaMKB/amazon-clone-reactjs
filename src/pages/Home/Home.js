@@ -12,16 +12,46 @@ const Home = () => {
                     className="home__image"
                 />
                 <div className="home__row">
-                    <Product />
-                    <Product />
+                    <Product
+                        title="The lean StartUp"
+                        price={99.9}
+                        image={require("../../assets/images/p1.jpg")}
+                        rating={4}
+                    />
+                    <Product
+                        title="Cool girl nike shoes"
+                        price={39.9}
+                        image={require("../../assets/images/p2.jpg")}
+                        rating={4}
+                    />
                 </div>
                 <div className="home__row">
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product
+                        title="Sewing Bemina Sewing machine"
+                        price={129.9}
+                        image={require("../../assets/images/p3.jpg")}
+                        rating={4}
+                    />
+                    <Product
+                        title="SKMei watch"
+                        price={9.99}
+                        image={require("../../assets/images/p4.jpg")}
+                        rating={2}
+                    />
+                    <Product
+                        title="Louis Vuitton shoes"
+                        price={129.9}
+                        image={require("../../assets/images/p5.jpg")}
+                        rating={4}
+                    />
                 </div>
                 <div className="home__row">
-                    <Product />
+                    <Product
+                        title="Eloquent Javascript"
+                        price={19.9}
+                        image={require("../../assets/images/p6.png")}
+                        rating={4}
+                    />
                 </div>
             </div>
         </div>
