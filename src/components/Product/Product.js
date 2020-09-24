@@ -11,7 +11,7 @@ const Product = () => {
                     <strong>99.9</strong>
                 </p>
                 <div className="product__rating">
-                    <p>⭐</p>
+                    <span role='img' aria-label="star">⭐</span>
                 </div>
             </div>
             <img src={require("../../assets/images/p1.jpg")} alt=""/>
